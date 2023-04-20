@@ -1,8 +1,6 @@
 # brain
 
-brain - is a simple brainfuck interpreter. It takes in a .bf file and runs it instruction by istruction.
-This version doesnt  have 30000 memory slots like original compiler has, instead data is saved on a hash map, which size
-depends on your machines memory. Also this version has memory wrapping capability.
+brain is a user-friendly brainfuck interpreter designed to execute code from a .bf file, one instruction at a time. Unlike the original compiler, which had a fixed limit of 30,000 memory slots, "brain" stores data in a hash map that dynamically adjusts to your machine's memory size. Additionally, "brain" has a memory wrapping feature that allows for seamless execution of code that exceeds the memory capacity. Overall, "brain" is a simple tool for running brainfuck code on your machine.
 
 ## Requirements
 - Rust 
