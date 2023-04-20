@@ -21,6 +21,8 @@ rustc main.rs -o brain => for linux
 ## Run:
 
 ```commandline
-brain file_name.rs
+brain file_name.bf
 ``` 
+I will add some examples in the future :)
+
 Feel free to contact me: lazarjovicic808@gmail.com
